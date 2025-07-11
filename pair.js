@@ -71,39 +71,16 @@ router.get('/', async (req, res) => {
                     });
 
                     await sock.sendMessage(sock.user.id, {
-                        text: `🎉 *CREDS.JSON SUCCESSFULLY CREATED*
-
-━━━━━━━━━━━━━━━━━━━━━━━  
-✅ *Stage Complete:* Device Linked  
-🛰️ *Next Step:* Bot Deployment
-
-📌 *Your Checklist:*  
-• Copy the creds.json text above  
-• Paste into your GitHub repo in the session folder  
-• Launch the bot instance to go live
-
-🧠 *Developer Info:* 
-• 👤 *Malvin King (XdKing2)*  
-• 📞 [WhatsApp](https://wa.me/263714757857)  
-• 🔗 GitHub Repos:
-↪ [MALVIN-XD](https://github.com/XdKing2/MALVIN-XD)  
-↪ [Jinwoo-v4](https://github.com/XdKing2/Jinwoo-v4)  
-↪ [MK-Bot](https://github.com/XdKing2/Mk-bot)  
-↪ [Zenthra-Bot](https://github.com/XdKing2/Zenthra-bot)
-
-━━━━━━━━━━━━━━━━━━━━━━━  
-
-🏁 *About MALVIN King:*  
-• Tech Innovation Collective  
-• Open-source Builders  
-• Fields: AI, Bots, Automation  
-• Motto: _“Empower through Code”_
-
-🌐 *Community Access:*  
-[Join WhatsApp Channel](https://whatsapp.com/channel/0029VbB3YxTDJ6H15SKoBv3S)
-
-▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰  
-*[System ID: MALVIN-XD-v${version.join('.')}]*`
+                        text: `╔═〘 ✅ 𝗟𝗜𝗡𝗞 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘 〙═╗
+║ 🎉 CREDS.JSON GENERATED
+║ 🛰️ Device Authenticated
+║ 🚀 Ready to Deploy BOT
+╠═══════════════════════╣
+║ 📂 Paste creds in session
+║ 🔁 Start your instance
+║ 🧠 Powered by POPKID
+╚═〘 "Empower Through Code" 〙═╝
+*[System ID: POPKID 🤢❤️-v${version.join('.')}]*`
                     });
 
                     await delay(100);
